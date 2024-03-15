@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <button id="searchButton">Search</button>
+        <div class="weather-info">
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="humidity"></p>
+            <p id="speed"></p>
+            <div class="flex">
+                <img id="icon" src="" alt="">
+                <p id="description"></p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Your Weather by location</h1>
+        <div class="weather-info">
+            <h2 id="my_location"></h2><img src="" alt="" id="flag">
+            <p id="my_temperature">Loading....</p>
+            <p id="my_humidity">If it last for long time that means you city is no supported</p>
+            <p id="my_speed"></p>
+            <div class="flex">
+                <img id="my_icon" src="" alt="">
+                <p id="my_description"></p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
